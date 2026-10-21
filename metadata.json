@@ -1,0 +1,8 @@
+{
+  "name": "EasyPay - Digital Payments",
+  "description": "Frictionless digital wallet prototype featuring instant peer-to-peer transfers, interactive QR code payments, simulated biometric authentication, and live ledger transaction history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

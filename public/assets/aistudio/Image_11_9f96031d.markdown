@@ -1,0 +1,239 @@
+---
+name: Kinetic Blue FinTech
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#434654'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#737686'
+  outline-variant: '#c3c5d7'
+  surface-tint: '#1353d8'
+  primary: '#003fb1'
+  on-primary: '#ffffff'
+  primary-container: '#1a56db'
+  on-primary-container: '#d4dcff'
+  inverse-primary: '#b5c4ff'
+  secondary: '#006c49'
+  on-secondary: '#ffffff'
+  secondary-container: '#6cf8bb'
+  on-secondary-container: '#00714d'
+  tertiary: '#0040ae'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#0856de'
+  on-tertiary-container: '#d3dcff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b5c4ff'
+  on-primary-fixed: '#00174d'
+  on-primary-fixed-variant: '#003dab'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#dbe1ff'
+  tertiary-fixed-dim: '#b4c5ff'
+  on-tertiary-fixed: '#00174b'
+  on-tertiary-fixed-variant: '#003ea8'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-currency:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 44px
+    fontWeight: '800'
+    lineHeight: 52px
+  display-currency-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system expresses speed, unquestioned security, and frictionless everyday utility for peer-to-peer and merchant payments. It blends high-clarity modern utility with a vibrant, tactile digital wallet personality.
+
+### Target Audience & Emotional Stance
+- **Primary Audience:** Mobile-first digital natives, daily commuters, and everyday consumers executing peer-to-peer transfers, QR code checkouts, utility bills, and bank-direct settlements.
+- **Emotional Mandate:** Immediate reassurance at transaction commitment, instant recognition of monetary value changes, and zero cognitive strain during multi-step authentication.
+- **Design Stance:** Pragmatic modernism enriched by micro-tactile surface response. Visual noise is aggressively eliminated in favor of ultra-crisp typographic hierarchy, punchy status feedback, and effortless single-thumb access zones.
+
+## Colors
+
+The palette establishes an immediate relationship between high-security institutional banking and lightspeed mobile consumer interactions.
+
+### Role Mapping
+- **Primary (`#1A56DB`):** The foundational brand anchor. Governs high-emphasis action triggers, active tab states, bottom navigation emphasis, and critical payment authorization steps.
+- **Secondary (`#10B981`):** Functional money-positive accent. Dedicated strictly to incoming funds, payment verification ticks, cashback vouchers, and positive transaction statuses. Paired with soft mint backing (`#D1FAE5`) to ensure effortless contrast against white surfaces.
+- **Tertiary (`#2563EB`):** Dynamic electric royal blue for active focus rings, interactive card gradients, promotional callouts, and secondary link targets.
+- **Neutral (`#64748B` - Slate):** Delivers clean structural balance. Replaces harsh neutral blacks with deep charcoal slates (`#0F172A`) for primary numerals, mid-tone slates (`#475569`) for metadata, and muted cool slates (`#F1F5F9` / `#F8FAFC`) for tactile container dividers.
+- **Canvas Tones:** Pristine base white (`#FFFFFF`) with sky wash fills (`#EBF5FF`) for hero account modules, quick-pay contact circles, and elevated contextual cards.
+
+## Typography
+
+Typographic scale is optimized for high-velocity transactional reading. **Plus Jakarta Sans** provides open letter apertures, balanced vertical heights, and high geometric clarity across numeric digits.
+
+### Typographic Rules
+- **Monetary Digits:** Set all financial balances, currency values, and OTP input fields with `font-feature-settings: "tnum" 1` to ensure tabular tabular alignment across transaction feeds and keypad readouts.
+- **Negative Space Calibration:** Tighten line heights on large headline and currency displays (`1.15` to `1.2`) to eliminate vertical drift within sticky transfer sheets.
+- **Hierarchy Stacking:** Pair heavy uppercase micro-labels (`label-sm` with letter-spacing `+0.04em`) with primary slate values to make transaction timestamps, status notes, and bank account masks effortlessly skimmable.
+
+## Layout & Spacing
+
+A mobile-centric fluid column framework built around single-handed thumb navigational arcs.
+
+### Responsive Structure
+- **Mobile (< 640px):** 4-column fluid layout with `1rem` outer canvas padding. Action trays, quick-send contact bubbles, and bottom sheets snap directly to edge boundaries with comfortable tap targets.
+- **Tablet (640px - 1024px):** 8-column layout with `2rem` margin. Main payment flows isolate into a centered `540px` high-focus utility channel, avoiding stretched keypad entry.
+- **Desktop (L
+NŠŠˆL‹XÛÛ[[ˆ^[Ý]Ø\Y]HX^]ÚYÙˆLLŒÚ]HX[\[™H\˜Ú]XÝ\™NˆY\[™H\œÚ\Ý[Ý[[X\žK˜[œØXÝ[ÛˆYÙ\‹[™^[Y[›Ùš[NÈšYÚ\[™H™X[][YH\›Z[˜[[™[\˜XÝ]™HØ\™X[˜YÙ\‹‚‚ˆÈÈÈÜ]X[š]B‹H\HÝšXÝ™\XØ[[˜Ü™[Y[Îˆ\™[X
+Î
+H[\›˜[Y[™ÈÚ][ˆXÝ[Û˜X›HÚ\ÎÈ\™[X
+Mœ
+HÙ\\˜][Ûˆ™]ÙY[ˆ[™]šYX[˜[œØXÝ[Ûˆ\Ý›ÝÜÎÈK\™[X
+
+HÜXÚ[™ÈÜ›Ý\[™È\Ý[˜Ý^[Y[Ø]YÛÜšY\È
+K™Ë‹]ZXÚÈÛÛXÝÈœËˆš[^H][]Y\ÊK‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•š\ÝX[Y\˜\˜ÚH\Ù\ÈÛX[ˆ][K\[™H^Y\š[™Ë˜Z[›Ý[™\žHYš[š][Û‹[™Z[Ü™Y[XÝšXÈ[XšY[ÚYÝÜÈ˜]\ˆ[ˆ[œÙK\H›ÜÚYÝÜË‚‚ˆÈÈÈ\Y\˜\˜ÚB‹H
+Š“]™[
+›]ÈØ[˜\ÊNŠŠˆ™]]˜[[™\›^H
+ÑŽQØ
+H\ÚYÛ™Y›Üˆ˜\Ù[[™HØ[˜\ÈÝXÝ\™H[™˜XÚÙÜ›Ý[™ÛÛ˜\Ý‚‹H
+Š“]™[H
+Ø\™˜\ÙJNŠŠˆ\™HÚ]HØ\™È™X]\š[™ÈH\ÝXÝ\˜[Z\›[™H›Ü™\ˆÙˆÑL‘NŒÛÝ\YÚ][ˆ[XšY[›ÜˆœLœ™Ø˜JMKŒË‹Œ
+K\ÜL\™Ø˜JMKŒË‹ŒŠX‚‹H
+Š“]™[ˆ
+Ý™\ˆÈXÝ]™H›ØÝ\ÊNŠŠˆ[]˜]YXÝ[Û˜X›HØ\™ÈÚ]HÝXH›YH[ˆLŒM™Ø˜J‹‹ŒNKŒ
+KœLœ™Ø˜JMKŒË‹Œ
+X‚‹H
+Š“]™[È
+[Ù[È	ˆ˜[œÙ™\ˆ˜]Ù\œÊNŠŠˆ[˜[ZXÈ›ÝÛHÚY]È›Ø][™ÈX›Ý™HH	H[H˜XÚÙ›Ü
+ÌŒMÌM˜Ú]˜XÚÙ›Ü›\ŠKˆÚYÝÜÈ^[™ÝÛØ\™ˆŒÌœN™Ø˜JMKŒË‹ŒMŠX‚‹H
+Š”ÜXÚX[[]˜][Ûˆ
+[XÝšXÈš[X\žHÕJNŠŠˆÛÜ™H^[Y[]ÛœÈ\ÙHH\™XÝ[Û˜[[YÚYÝÎˆMœLœ™Ø˜JÍËNKŒÍKŒÍJXÈ›Ú™XÝ[™\™ÞH[™XÝ[Û˜X›H[[‚‚ˆÈÈÚ\\Â‚•H\ÚXØ[Ú[ÝY]H™[Y\ÈÛˆœšY[™KÝ\™YÙ[ÛY]šXÈÛÜ›™\œÈÚ]Ý]\[™È[È^Y[^YÙÙ\˜][Û‹‚‚ˆÈÈÈÝ\˜]\™HÝZY[[™\Â‹H
+ŠÛÛZ[™\œÈ	ˆÝ\™˜XÙHØ\™ÎŠŠˆÝ[™\™^™YÛˆ›Ý[™YLž
+\™[XÈMœ
+HÈœ˜[YH˜[[˜ÙHÝ[[X\šY\Ë˜[œØXÝ[ÛˆÜ›Ý\Ë[™Y\˜Ú[›ÝXÚ\œË‚‹H
+Š”š[X\žHXÝ[ÛˆÝXÚÚ[ÎŠŠˆYÚY[\\Ú\È^[Y[XÝ[Ûˆ˜\œËÛÛ™š\›X][Ûˆ]ÛœË[™[Y\šXÈ[œ]›ØÚÜÈÛÛœÚ\Ý[H]™\˜YÙH›Ý[™YLž
+\™[X
+HÈ[œÝ\™HÛÛY›ÜX›H[Xˆ[™ØYÙ[Y[‚‹H
+Š”[˜YÙ\È	ˆÚ\˜Ý[\ˆ]˜]\œÎŠŠˆÝ]\È›YÜËš[\ˆÙ[XÝÜœËÛÛXÝÙ[™šYÙÙ\œË[™ÕÚ\˜Û\È\ÙH›Ý[™YY[
+NNN\
+HÈ\ÝX›\Ú\Ý[˜Ýš\ÝX[ÛÛ˜\ÝYØZ[œÝ™XÝ[™Ý[\ˆÛÛZ[™\œË‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\žH^[Y[]ÛŽŠŠˆZYÚMœÛˆ[Øš[HØÜ™Y[œÈ›Üˆ[XˆXØÙ\ÜÚXš[]Kˆ˜XÚÙÜ›Ý[™ÌPMM‘˜Ú]›ÛÚ]H^
+X™[[Ø
+K›Ý[™YLžÛÜ›™\ˆ˜YZKXØÛÛ\[šYYžHHš[X\žH[XÝšXÈ›ÜÚYÝËˆ\™YY˜XÚÈÚš[šÜÈÛYÚHÈØØ[JŽN
+XÚ]\˜][ÛˆLŒ\Ø‚‹H
+Š”ÙXÛÛ™\žHÈXÝ[ÛˆÚÜÝŠŠˆ›Ü™\ˆK\[ˆÑL‘NŒÛˆÚ]Hš[Ú]™]]˜[Ú\˜ÛØ[^
+ÌQLŽLÐ˜
+KˆÝÚ]Ú\ÈÈÑP‘Q‘˜š[Ú]ÌPMM‘˜›Ü™\œÈÚ[ˆ™\ÜÙY‚‹H
+Š“[Û™^HXÝ[Ûˆ˜\šX[
+^HÈ™\]Y\Ý
+NŠŠˆÜ][]ÚY]ÛˆÜ›Ý\[™ÜËˆ”Ù[™[Û™^Hˆ][^™\È›ÛÌPMM‘˜È”™\]Y\Ýˆ]™\˜YÙ\ÈYÚÚÞKX›YH˜XÚÙÜ›Ý[™
+ÑP‘Q‘˜
+HÚ]ÌPMM‘˜^‚‚ˆÈÈÈÚ\È	ˆ[˜YÙ\Â‹H
+Š”Ý]\È[™XØ]Üˆ[ŠŠˆZYÚŽ›Ý[™YY[Üš^›Û[Y[™ÈLœ‚ˆH
+”ÝXØÙ\ÜÈÈ™XÙZ]™YŠˆÑQQMX˜XÚÙÜ›Ý[™Ú]ÌQ˜X™[[™HÌLŽNXXY[™ÈÚXÚÈXÛÛ‹‚ˆH
+”[™[™ÈÈ›ØÙ\ÜÚ[™ÎŠˆÑ‘QŒÐÍØ˜XÚÙÜ›Ý[™Ú]ÎLXX™[‚‹H
+Š‘š[\ˆÚ\ŠŠˆZYÚÍœ›Ý[™YY[ÛÙÝ][™HÑL‘NŒ™]]˜[Û]H^ˆÙ[XÝYÝ]HÝÚ]Ú\ÈÈÛÛYÌPMM‘˜^Ú][ˆÑP‘Q‘˜˜XÚÙÜ›Ý[™Ø\Ú‚‚ˆÈÈÈ\ÝÈ	ˆ˜[œØXÝ[Ûˆ™YYÂ‹H
+ŠXÝ]š]H][NŠŠˆÝXÝ\™YZYÚÚ]™YHÜš^›Û[HÝXÚÙY[š]Î‚ˆKˆÚ\˜Ý[\ˆ]˜]\ˆ
+X[Y]\‹›Ý[™YY[
+HÜÝ[™ÈY\˜Ú[ÙÛÈÜˆ™XÚ\Y[[š]X[ÈÝ™\ˆH[YÑŒQQŽXÜˆÑP‘Q‘˜Ü›Ý[™‚ˆ‹ˆ™\XØ[^X[ÝXÚÎˆ˜[YKÛY\˜Ú[
+XY[™K\ÛXM\
+K[Y\Ý[\[™^[Y[›Ý]H
+›ÙK\ÛXÍÍ˜
+K‚ˆËˆšYÚX[YÛ™Y˜[œØXÝ[Ûˆ[NˆÝ]ÛÚ[™È[[Ý[ÈX\šÙY[ˆÌŒMÌX
+H	–
+NÈ[˜ÛÛZ[™È^[Y[ÈX\šÙY[ˆÜš\Ü[Y\˜[Ü™Y[ˆÌLŽNX
+
+È	–
+HÚ]X[\ˆ[Y\šXÈÜXÚ[™Ë‚‚ˆÈÈÈ›Ü›H[œ]È	ˆ[Y\šXÈÙ^\YÂ‹H
+Š[[Ý[[žHšY[ŠŠˆÙ[\™Y›Ü™\›\ÜÈ[œ]Ú][˜[ZXÈ›ÛØØ[[™È
+\Ü^KXÝ\œ™[˜ÞX
+KˆÝ\œ™[˜ÞH[™XØ]Üˆ™Yš^š^Y[ˆ]]YÎMLÐŽˆ]]ËY›ØÝ\È^Xš]ÈHÛ[ÛÝ›ÝÛK[[™HYÚYÚ[ˆÌMŒÑP˜‚‹H
+Š•^	ˆ˜[šÈXØÛÝ[[œ]ŠŠˆZYÚLœ›Ý[™Y^K\›Ü™\ˆ[ˆÑL‘NŒ˜XÚÙÜ›Ý[™Ñ‘‘‘‘‘˜ˆXÝ]™H›ØÝ\È˜[œÚ][ÛœÈ›Ü™\ˆÛÛÜˆÈÌPMM‘˜Ú][ˆ[XÝšXÈÝ]\ˆÛÝÈ
+Ü™Ø˜JÍËNKŒÍKŒMJX
+K‚‚ˆÈÈÈY][Û˜[^[Y[TÜXÚYšXÈÛÛ\Û™[Â‹H
+Š”]ZXÚËT^HÛÛXÝX˜›NŠŠˆMœÚ\˜Ý[\ˆÜ˜Z]ÈÚ][ˆÝ™\›\[™ÈÝ]\Èš[™Ëˆ\[™ÈÙ[™\˜]\È[ˆ[œÝ[›ÝÛK\ÚY]˜[œÙ™\ˆ˜^K‚‹H
+Š”^[Y[Ø\™Ø[˜\ÎŠŠˆÛÛ\XÝš\ÝX[™\™\Ù[][ÛœÈÙˆ[šÙYXš]ØÜ™Y]˜Z[È][^š[™ÈÝXHXYÛÛ˜[›ÞX[›YHÜ˜YY[È
+ÌPMM‘˜ÈÌQMQ˜
+K\Ü^Z[™È›Ü›X]YX\ÚÙYSœËØ\™™]ÛÜšÈÙÛÜË[™]ZXÚË]ÙÙÛHÜ[ÛœË

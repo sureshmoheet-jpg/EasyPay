@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#0856de", "on-tertiary": "#ffffff", "on-secondary": "#ffffff", "surface-container-lowest": "#ffffff", "on-error-container": "#93000a", "on-tertiary-container": "#d3dcff", "primary-fixed-dim": "#b5c4ff", "secondary-fixed": "#6ffbbe", "on-primary": "#ffffff", "inverse-on-surface": "#eaf1ff", "on-background": "#0b1c30", "tertiary-fixed-dim": "#b4c5ff", "on-secondary-fixed": "#002113", "on-primary-fixed": "#00174d", "primary-fixed": "#dbe1ff", "on-primary-fixed-variant": "#003dab", "secondary-container": "#6cf8bb", "secondary": "#006c49", "surface-dim": "#cbdbf5", "surface-container-high": "#dce9ff", "error": "#ba1a1a", "surface-container": "#e5eeff", "surface": "#f8f9ff", "surface-bright": "#f8f9ff", "error-container": "#ffdad6", "on-secondary-container": "#00714d", "surface-container-highest": "#d3e4fe", "surface-tint": "#1353d8", "on-surface": "#0b1c30", "surface-container-low": "#eff4ff", "surface-variant": "#d3e4fe", "on-surface-variant": "#434654", "outline": "#737686", "on-secondary-fixed-variant": "#005236", "on-error": "#ffffff", "secondary-fixed-dim": "#4edea3", "inverse-primary": "#b5c4ff", "primary-container": "#1a56db", "background": "#f8f9ff", "tertiary-fixed": "#dbe1ff", "on-primary-container": "#d4dcff", "outline-variant": "#c3c5d7", "primary": "#003fb1", "on-tertiary-fixed-variant": "#003ea8", "tertiary": "#0040ae", "on-tertiary-fixed": "#00174b", "inverse-surface": "#213145" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2rem", "gutter": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter-desktop": "1.5rem", "margin": "1rem", "margin-desktop": "3rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "display-currency": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-currency-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }], "display-currency": ["44px", { "lineHeight": "52px", "fontWeight": "800" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "fontWeight": "700" }], "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "display-currency-mobile": ["36px", { "lineHeight": "44px", "fontWeight": "800" }], "label-lg": ["15px", { "lineHeight": "20px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><img alt="EasyPay Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1WNDVfMC6945AsJWNewJWYWtEGh_-xcXIMgQQajNoAu91pgzMuuvyS55BL4PNx-ZZU2kJcPnicT93PyndDBWVGVIT0HQu4xkV8i5wRE5TN5-o4JLpdqFI3YCoWQLmoIi0s1_4FvrLAqbF2hfvlNGOlYmWRVxSFG-KonegxIxw8UA3NlRxKhmNRqis_IyWUxQBG68VI5w_7vhSzTvSLfRiwtl8fklf-1s5QdVEx5ZmHbWLeArajjxDn-g0w"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate">EasyPay</span><span class="inline-flex items-center px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider flex-shrink-0">DEMO MODE</span></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Notifications" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-error ring-2 ring-surface-container-lowest"></span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZqJ6GyMb2ESTD6yNduc4hW1WYGP05H2151IzhCFGqmRzbnflXF2tV7BD1e7hecvAIVTF7RW2cdg4H4Bp-0O88cBEJSYzxAy7GOUXbfRC3KJiP4ZcnCmfAj5TfcyXvCQRAZeMy98qjFcNbfsKeU8i7sixbP8kSjrmuMX_X8n1RlxaIBwERqchR_XyB3YXzLGydg4XDF_YGv1-q-x0W7DmBxhOlmlWlc4lUnBwAsoctrRsiYRrMoGwt"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-20 bg-surface"><div class="flex flex-col w-full pb-8">
+<div class="px-gutter pt-space-md space-y-space-md">
+<!-- Search Bar -->
+<div class="relative flex items-center w-full">
+<span class="material-symbols-outlined absolute left-3.5 text-[20px] text-outline pointer-events-none">search</span>
+<input class="w-full h-12 pl-11 pr-10 rounded-xl bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-outline shadow-sm focus:outline-none focus:bg-surface-container-low transition-all" id="transaction-search" placeholder="Search by name, ID or amount..." type="text"/>
+<button aria-label="Voice or clear" class="absolute right-3 text-outline hover:text-on-surface p-1 flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+<!-- Filter Pills (Horizontal Scroll) -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-0.5" id="filter-container">
+<button class="filter-pill px-4 py-1.5 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-primary text-on-primary shadow-sm" data-filter="all">All</button>
+<button class="filter-pill px-4 py-1.5 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-on-surface-variant hover:bg-surface-container-high" data-filter="sent">Sent</button>
+<button class="filter-pill px-4 py-1.5 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-on-surface-variant hover:bg-surface-container-high" data-filter="received">Received</button>
+<button class="filter-pill px-4 py-1.5 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-on-surface-variant hover:bg-surface-container-high" data-filter="pending">Pending</button>
+<button class="filter-pill px-4 py-1.5 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-on-surface-variant hover:bg-surface-container-high" data-filter="month">This Month</button>
+</div>
+<!-- Monthly Summary Bento Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">June 2025</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">Active Period</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm pt-1">
+<!-- Sent Sub-block -->
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Total Sent</span>
+<span class="material-symbols-outlined text-[16px] text-error">arrow_outward</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">$320.50</span>
+<div class="w-full bg-surface-container-highest rounded-full h-1 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 32%;"></div>
+</div>
+</div>
+<!-- Received Sub-block -->
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm text-secondary">Total Received</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">arrow_downward</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary tracking-tight">$680.00</span>
+<div class="w-full bg-surface-container-highest rounded-full h-1 mt-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 68%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Transaction List Section -->
+<div class="space-y-space-md pt-space-xs" id="transaction-feed">
+<!-- Group: Today -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Today</span>
+<span class="font-label-sm text-label-sm text-outline">1 transaction</span>
+</div>
+<!-- Transaction 1: Priya Sharma -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl flex items-center justify-between shadow-sm active:scale-[0.98] transition-transform cursor-pointer" onclick="openReceipt('Priya Sharma', 'Split Bill', '+$35.00', 'Success', 'received', 'Today, 2:45 PM', 'EP-DEMO-88392019', 'Priya Sharma (priya.sharma@easypay.demo)', 'Alex Chen (alex.chen@easypay.demo)')">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative w-11 h-11 rounded-full flex-shrink-0 bg-secondary-container/40 flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[22px]">call_received</span>
+<span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-secondary ring-2 ring-surface-container-lowest"></span>
+</div>
+<div class="min-w-0">
+<div class="font-headline-sm text-[15px] leading-5 text-on-surface font-semibold truncate">Priya Sharma</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Split Bill • 2:45 PM</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1 flex-shrink-0 pl-2">
+<span class="font-headline-sm text-[15px] text-secondary font-bold">+$35.00</span>
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px]">
+<span class="material-symbols-outlined text-[11px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+              Success
+            </span>
+</div>
+</div>
+</div>
+<!-- Group: Yesterday -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Yesterday</span>
+<span class="font-label-sm text-label-sm text-outline">2 transactions</span>
+</div>
+<!-- Transaction 2: Tech Cafe -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl flex items-center justify-between shadow-sm active:scale-[0.98] transition-transform cursor-pointer" onclick="openReceipt('Tech Cafe', 'Cold Brew &amp; Muffin', '-$8.50', 'Success', 'sent', 'Yesterday, 9:15 AM', 'EP-DEMO-44910283', 'Tech Cafe Roasters (merchant.techcafe@easypay.demo)', 'Alex Chen (alex.chen@easypay.demo)')">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-11 h-11 rounded-full flex-shrink-0 bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[22px]">local_cafe</span>
+</div>
+<div class="min-w-0">
+<div class="font-headline-sm text-[15px] leading-5 text-on-surface font-semibold truncate">Tech Cafe</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Cold Brew &amp; Muffin • 9:15 AM</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1 flex-shrink-0 pl-2">
+<span class="font-headline-sm text-[15px] text-on-surface font-bold">-$8.50</span>
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-[10px]">
+              Success
+            </span>
+</div>
+</div>
+<!-- Transaction 3: Liam King -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl flex items-center justify-between shadow-sm active:scale-[0.98] transition-transform cursor-pointer" onclick="openReceipt('Liam King', 'Freelance Design', '+$250.00', 'Success', 'received', 'Yesterday, 4:20 PM', 'EP-DEMO-99120485', 'Liam King (liam.king@easypay.demo)', 'Alex Chen (alex.chen@easypay.demo)')">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative w-11 h-11 rounded-full flex-shrink-0 bg-secondary-container/40 flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[22px]">payments</span>
+<span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-secondary ring-2 ring-surface-container-lowest"></span>
+</div>
+<div class="min-w-0">
+<div class="font-headline-sm text-[15px] leading-5 text-on-surface font-semibold truncate">Liam King</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Freelance Design • 4:20 PM</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1 flex-shrink-0 pl-2">
+<span class="font-headline-sm text-[15px] text-secondary font-bold">+$250.00</span>
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px]">
+<span class="material-symbols-outlined text-[11px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+              Success
+            </span>
+</div>
+</div>
+</div>
+<!-- Group: May 2025 -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">May 2025</span>
+<span class="font-label-sm text-label-sm text-outline">1 transaction</span>
+</div>
+<!-- Transaction 4: Online Marketplace -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl flex items-center justify-between shadow-sm active:scale-[0.98] transition-transform cursor-pointer" onclick="openReceipt('Online Marketplace', 'Book Order', '-$22.00', 'Pending', 'sent', 'May 30, 11:10 AM', 'EP-DEMO-10398472', 'Online Marketplace Global (settlement@marketplace.demo)', 'Alex Chen (alex.chen@easypay.demo)')">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative w-11 h-11 rounded-full flex-shrink-0 bg-surface-container-high flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[22px]">shopping_bag</span>
+<span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-primary ring-2 ring-surface-container-lowest"></span>
+</div>
+<div class="min-w-0">
+<div class="font-headline-sm text-[15px] leading-5 text-on-surface font-semibold truncate">Online Marketplace</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Book Order • May 30</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1 flex-shrink-0 pl-2">
+<span class="font-headline-sm text-[15px] text-on-surface font-bold">-$22.00</span>
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-[10px]">
+<span class="material-symbols-outlined text-[11px] animate-spin">sync</span>
+              Pending
+            </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty State Prompt Helper (Hidden by default, triggered when filters or search find none) -->
+<div class="hidden flex flex-col items-center justify-center py-12 text-center space-y-3" id="no-results">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[32px]">receipt_long</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface">No transactions found</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Try tweaking your search keywords or clear current filters.</p>
+</div>
+<button class="px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-sm" onclick="resetFilters()">
+        Reset Search
+      </button>
+</div>
+</div>
+<!-- Detailed Receipt Bottom Sheet Modal Backdrop -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 flex items-end sm:items-center sm:justify-center p-0 sm:p-4" id="receipt-modal-backdrop" onclick="handleBackdropClick(event)">
+<!-- Modal Card Container -->
+<div class="w-full sm:max-w-md bg-surface-container-lowest rounded-t-3xl sm:rounded-2xl max-h-[751px] overflow-y-auto transform translate-y-full transition-transform duration-300 shadow-2xl flex flex-col" id="receipt-modal-panel">
+<!-- Bottom Sheet Drag Handle -->
+<div class="w-full flex justify-center pt-3 pb-1 sm:hidden">
+<div class="w-10 h-1 rounded-full bg-outline-variant"></div>
+</div>
+<!-- Top Header & Close Icon -->
+<div class="px-space-md pt-2 pb-1 flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Transaction Receipt</span>
+<button aria-label="Close" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="closeReceipt()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Receipt Content -->
+<div class="p-space-md space-y-space-md">
+<!-- Status Hero Indicator -->
+<div class="flex flex-col items-center text-center space-y-2">
+<div class="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center text-secondary shadow-sm" id="receipt-status-badge">
+<span class="material-symbols-outlined text-[36px]" id="receipt-status-icon" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface" id="receipt-status-title">Payment Successful</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5" id="receipt-timestamp">Today, 2:45 PM</div>
+</div>
+<!-- Big Highlight Amount -->
+<div class="font-display-currency-mobile text-display-currency-mobile text-on-surface tracking-tight font-extrabold pt-1" id="receipt-amount">
+            $35.00
+          </div>
+</div>
+<!-- Ledger Details Box -->
+<div class="bg-surface-container-low rounded-xl p-space-sm space-y-2.5">
+<div class="flex items-center justify-between text-body-sm">
+<span class="text-on-surface-variant font-body-sm">Reference ID</span>
+<div class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="font-mono text-[12px]" id="receipt-ref-id">EP-DEMO-88392019</span>
+<button class="text-primary hover:text-tertiary p-0.5" onclick="copyRefId()" title="Copy ID">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col gap-0.5 text-body-sm pt-1 border-t-0">
+<span class="text-on-surface-variant font-body-sm">Recipient</span>
+<span class="font-label-md text-label-md text-on-surface break-words" id="receipt-recipient">Priya Sharma (priya.sharma@easypay.demo)</span>
+</div>
+<div class="flex flex-col gap-0.5 text-body-sm pt-1">
+<span class="text-on-surface-variant font-body-sm">Sender</span>
+<span class="font-label-md text-label-md text-on-surface break-words" id="receipt-sender">Alex Chen (alex.chen@easypay.demo)</span>
+</div>
+<div class="flex items-center justify-between text-body-sm pt-1">
+<span class="text-on-surface-variant font-body-sm">Payment Method</span>
+<div class="flex items-center gap-1.5 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary">account_balance_wallet</span>
+<span>EasyPay Demo Wallet</span>
+</div>
+</div>
+</div>
+<!-- Primary Actions -->
+<div class="space-y-space-xs pt-1">
+<div class="grid grid-cols-2 gap-space-xs">
+<!-- Share Button -->
+<button class="h-11 rounded-xl bg-surface-container-high hover:bg-surface-container text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-colors" onclick="triggerToast('Receipt link copied to clipboard')">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>Share</span>
+</button>
+<!-- Download Button -->
+<button class="h-11 rounded-xl bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm hover:bg-tertiary transition-colors" onclick="triggerToast('Downloading PDF receipt...')">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>PDF Receipt</span>
+</button>
+</div>
+<!-- Repeat Payment Action -->
+<button class="w-full h-11 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-center gap-2 transition-colors" onclick="triggerToast('Prefilled transfer for ' + document.getElementById('receipt-recipient').innerText.split(' ')[0])">
+<span class="material-symbols-outlined text-[18px] text-primary">replay</span>
+<span>Repeat Payment</span>
+</button>
+<!-- Report Issue Ghost Action -->
+<button class="w-full py-2 text-center text-error font-label-sm text-label-sm flex items-center justify-center gap-1 hover:underline" onclick="triggerToast('Support ticket draft initialized')">
+<span class="material-symbols-outlined text-[14px]">flag</span>
+<span>Report an Issue</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Notification Toast -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-4 py-2.5 rounded-full font-label-md text-label-md shadow-lg opacity-0 pointer-events-none transition-opacity duration-300 flex items-center gap-2" id="toast">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">check</span>
+<span id="toast-message">Action successful</span>
+</div>
+</div>
+<script>
+  function openReceipt(name, title, amount, status, type, timestamp, refId, recipient, sender) {
+    const backdrop = document.getElementById('receipt-modal-backdrop');
+    const panel = document.getElementById('receipt-modal-panel');
+    const isSuccess = status === 'Success';
+
+    document.getElementById('receipt-amount').textContent = amount.replace('+', '').replace('-', '');
+    document.getElementById('receipt-timestamp').textContent = timestamp;
+    document.getElementById('receipt-refId') ? document.getElementById('receipt-refId').textContent = refId : null;
+    document.getElementById('receipt-ref-id').textContent = refId;
+    document.getElementById('receipt-recipient').textContent = recipient;
+    document.getElementById('receipt-sender').textContent = sender;
+
+    const badge = document.getElementById('receipt-status-badge');
+    const icon = document.getElementById('receipt-status-icon');
+    const statusTitle = document.getElementById('receipt-status-title');
+
+    if (isSuccess) {
+      badge.className = 'w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center text-secondary shadow-sm';
+      icon.textContent = 'check_circle';
+      statusTitle.textContent = type === 'received' ? 'Payment Received' : 'Payment Successful';
+    } else {
+      badge.className = 'w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center text-primary shadow-sm';
+      icon.textContent = 'pending';
+      statusTitle.textContent = 'Payment Pending';
+    }
+
+    backdrop.classList.remove('opacity-0', 'pointer-events-none');
+    backdrop.classList.add('opacity-100');
+    panel.classList.remove('translate-y-full');
+    panel.classList.add('translate-y-0');
+  }
+
+  function closeReceipt() {
+    const backdrop = document.getElementById('receipt-modal-backdrop');
+    const panel = document.getElementById('receipt-modal-panel');
+
+    backdrop.classList.add('opacity-0', 'pointer-events-none');
+    backdrop.classList.remove('opacity-100');
+    panel.classList.add('translate-y-full');
+    panel.classList.remove('translate-y-0');
+  }
+
+  function handleBackdropClick(event) {
+    if (event.target.id === 'receipt-modal-backdrop') {
+      closeReceipt();
+    }
+  }
+
+  function copyRefId() {
+    const ref = document.getElementById('receipt-ref-id').innerText;
+    navigator.clipboard?.writeText(ref);
+    triggerToast('Copied Reference ID: ' + ref);
+  }
+
+  function triggerToast(text) {
+    const toast = document.getElementById('toast');
+    const msg = document.getElementById('toast-message');
+    msg.textContent = text;
+    toast.classList.remove('opacity-0', 'pointer-events-none');
+    toast.classList.add('opacity-100');
+    setTimeout(() => {
+      toast.classList.add('opacity-0', 'pointer-events-none');
+      toast.classList.remove('opacity-100');
+    }, 2500);
+  }
+
+  // Filter pills behavior
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => {
+        p.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        p.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      pill.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      pill.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      triggerToast('Filtered by ' + pill.innerText);
+    });
+  });
+
+  // Simple live search demo
+  const searchInput = document.getElementById('transaction-search');
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    const feed = document.getElementById('transaction-feed');
+    const noResults = document.getElementById('no-results');
+    
+    // Quick demonstration: if query has letters that don't match our demo items
+    if (query.length > 5 && !['priya', 'tech', 'cafe', 'liam', 'king', 'online', 'market', '35', '8.5', '250', '22'].some(k => query.includes(k))) {
+      feed.classList.add('hidden');
+      noResults.classList.remove('hidden');
+    } else {
+      feed.classList.remove('hidden');
+      noResults.classList.add('hidden');
+    }
+  });
+
+  function resetFilters() {
+    searchInput.value = '';
+    document.getElementById('transaction-feed').classList.remove('hidden');
+    document.getElementById('no-results').classList.add('hidden');
+    pills[0].click();
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="text-primary font-label-md"><div class="h-16 px-gutter grid grid-cols-5 items-center"><a class="flex flex-col items-center justify-center h-full min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="send" href="#"><span class="material-symbols-outlined text-[24px]">send_money</span><span class="font-label-sm text-label-sm">Send</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="receive" href="#"><span class="material-symbols-outlined text-[24px]">qr_code_scanner</span><span class="font-label-sm text-label-sm">Receive</span></a><a aria-current="page" class="flex flex-col items-center justify-center h-full min-h-[44px] gap-0.5 transition-colors text-primary font-label-md" data-path="history" href="#"><span class="material-symbols-outlined text-[24px]">receipt_long</span><span class="font-label-sm text-label-sm">History</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="profile" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm">Profile</span></a></div></nav></body></html>
